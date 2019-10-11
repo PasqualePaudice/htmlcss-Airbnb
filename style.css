@@ -5,6 +5,7 @@
 
 }
 
+
 section{
 height: 100vh;
 width: 100vw;
@@ -12,6 +13,7 @@ background-position: center;
 background-size: cover;
 position: relative;
 margin-top: 5px;
+
 }
 
 #Foto_colosseo{
@@ -44,5 +46,10 @@ margin-top: 5px;
 
 #Foto_venezia{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHT7vkQAvjFt0fNRzj1LC4ynwxVvRhpqByEiHdKgnInhdPfm3T");
+
+}
+
+#Foto_Napoli{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPobsuH21loPSxJ6oXp3p8K7-QgRwXMvO3cpUbw6bReZi_dU7_");
 
 }
