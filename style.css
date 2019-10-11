@@ -7,13 +7,39 @@
 
 main {
     margin:auto;
-    border: 1px solid black;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg");
+        height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
 }
 
 .colosseo{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg");
-    background-size: cover;
+    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg");*/
+    /*background-size: cover;
+    background-position: center;
     width:100vw;
     height:100vh;
-    position: relative;
+    position: relative;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+ h1{
+     font-size: 300%;
+     font-family: cursive;
+ }
+
+ #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
